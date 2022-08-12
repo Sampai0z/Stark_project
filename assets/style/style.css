@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+/*
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Silkscreen', cursive; 
+*/
+
+html body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F6F6EB; 
+}
+
+.main{
+  margin-top: 5rem;
+}
