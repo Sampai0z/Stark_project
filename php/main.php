@@ -137,19 +137,19 @@
       <span class="main_page" >STEP 1</span>
       <h3 class="card-header">Start with a free account</h3>
       <p class="card-text">Wherever you are in your accessibility journey, we belive you should have access to the best tools</p>
-      <a href="" class="card-link card-link-1">Create a free account</a>
+      <a href="" class="card-link card-link-1 hover-shadow">Create a free account</a>
     </div>
     <div class="col-md-4 content">
       <span class="main_page" >STEP 2</span>
       <h3 class="card-header">Download and install Stark</h3>
       <p class="card-text">Download and install our plugins for Figma, Sketch, Adobe XD, as well as our browser extensions.</p>
-      <a href="" class="card-link card-link-1">Download Stark</a>
+      <a href="" class="card-link card-link-1 hover-shadow">Download Stark</a>
     </div>
     <div class="col-md-4 content">
       <span class="main_page" >STEP 3</span>
       <h3 class="card-header">Go PRo when you're ready</h3>
       <p class="card-text2">From Alt-Text and Typography to Touch Targets and Suggestions, there's much more you can do with a Pro account.</p>
-      <a href="" class="card-link">Compare plans</a>
+      <a href="" class="card-link hover-shadow">Compare plans</a>
     </div>
   </div>
 </main>
