@@ -8,5 +8,5 @@
 <link rel="stylesheet" href="assets/style/style.css">
 <link rel="stylesheet" href="assets/style/footer.css">
 <link rel="shortcut icon" href="assets/image/icon/stark.svg" type="image/x-icon">
-<script src="assets/app/app.js"></script>
+<script src="assets/app/app.js" defer></script>
 <title>Stark: The suite of integrated accessibility tools - Project</title>

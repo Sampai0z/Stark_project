@@ -9,10 +9,213 @@ font-family: 'Silkscreen', cursive;
 
 html body{
   margin: 0;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #F6F6EB; 
+  margin-bottom: 100rem;
 }
 
-.main{
-  margin-top: 5rem;
+.top-color{
+  background: rgb(200,31,100);
+  background: linear-gradient(0deg, rgba(200,31,100,1) 0%, rgba(120,56,184,1) 19%, rgba(70,46,195,1) 50%, rgba(58,31,211,1) 100%);
 }
+
+.container_homepage{
+  margin-top: 6rem;
+  display: grid;
+  justify-content: center;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 100px;
+}
+.introduction-homepage{
+  font-family: 'Silkscreen', cursive;
+  color:#fedb62;
+}
+.homepage_image{
+  display: block;
+}
+@media (max-width: 842px) {
+  .homepage_image{
+    display: none;
+  }
+}
+
+.title-homepage{
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 60px;
+}
+
+.text{
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.button-homepage-1{
+  text-decoration: none;
+  border: 2px solid #fedb62;
+  margin-right: 4px;
+  color: #6d36ba;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 4px;
+  background-color: #fedb62;
+  transition: ease-in-out 0.1s;
+}
+.button-homepage-1:hover{
+  background-color: #fedc62e4;
+  border:2px solid #fedc62e4;
+}
+
+.button-homepage-2{
+  text-decoration: none;
+  border: 2px solid #fedb62;
+  color: #fedb62;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 4px;
+  transition: ease-in-out 0.1s;
+}
+
+.button-homepage-2:hover{
+  color: #6d36ba;
+  background-color: #fedb62;
+}
+
+/* ---------------- M A I N ---------------- */
+
+.main_page{
+  color: #6d36ba;
+  font-family: 'Silkscreen', cursive;
+  font-size: medium;
+}
+.sub_title{
+  font-size: 50px;
+  font-family: 'Archivo Black', sans-serif;
+  color: #11284c;
+}
+.text-normal{
+  padding-top: 15px;
+  color: #10284b;
+}
+
+.sub_main_page{
+  font-family: 'Archivo Black', sans-serif;
+  color: #11284c;
+}
+
+.card-steps{
+  background-color: #edede0;
+  border-radius: 20px;
+  padding: 50px;
+  left: 20px;
+}
+
+.card-header{
+  padding: 20px 0px;
+  font-family: 'Archivo Black', sans-serif;
+  color: #11284c;
+}
+.card-link{
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #5740e2;
+  padding: 15px 25px;
+  color: white;
+
+}
+.card-link:hover{
+  color:white;
+  background-color: #5240ba;
+}
+.card-text{
+
+  color: #10284b;
+  padding-bottom: 50px;
+}
+
+.card-text2{
+
+  color: #10284b;
+  padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------- T A B S --------------- */
+/* 
+.tabs{
+  position: relative;
+  margin-top: 40px;
+  width: 550px;
+  height: 10rem;
+  display: block;
+}
+.tabs .tab-header {
+  border-radius: 30px;
+  border: 2px solid #11284c;
+  padding: 8px;
+  display: flex;
+}
+.tabs .tab-header > div {
+  position: relative;
+  width: 25%;
+  text-align: center;
+  justify-content: baseline;
+  z-index: 2;
+  padding: 8px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.tabs .tab-header > div.active {
+  color: white;
+}
+.tabs .tab-indicator{
+  position: absolute;
+  width: 25%;
+  height: 40px;
+  background: #11284c;
+  padding: 8px;
+  top: 10px;
+  left: 10px;
+  border-radius: 20px;
+  transition: all 300ms ease-in-out;
+}
+.tab-body{
+  right: 50%;
+  
+  position: relative;
+  padding: 10px;
+  background:#f5f5f5;
+  border-top:1px solid #ddd;
+  height:calc(100% - 50px);
+  overflow: visible;
+}
+.tab-body > div {
+  position: absolute;
+  opacity: 0;
+  top: -100%;
+  transition:opacity 300ms ease-in-out, trasform 300ms ease-in-out;
+  transform: translateY(-10px);
+}
+.tab-body > div.active {
+  transform: translateY(0px);
+  top: 30px;
+  opacity: 1;
+}
+ */
