@@ -93,6 +93,11 @@ html body{
   margin-bottom: 50px;
   cursor: pointer;
 }
+@media (max-width:724px) {
+  .brand{
+    gap: 20px;
+  }
+}
 
 /* ---------------- M A I N ---------------- */
 

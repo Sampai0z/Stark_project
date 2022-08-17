@@ -23,7 +23,7 @@
   <div class="row g-0" align="center">
     <div class="col-md-12">
       <p class="main_page mt-5" >CHECK IT OUT</p>
-      <h1 class="sub_title" >See Stark in <strong>action</strong>.</h1>
+      <h1 class="sub_title" >See Stark in action.</h1>
       <p class="text-normal" >Lorem ipsum<path d="M0 57.5L4.5 5.5L307 0L299.5 57.5H0Z" fill="#FEDB63"></path> dolor sit amet consectetur, adipisicing elit. Architecto fugit ipsam <br> asperiores? Ab enim de
         bitis maiores esse ut eveniet. <br> Accusamus perspiciatis labore provident sint sequi vel iste architecto laborum
          mollitia!</p>
@@ -137,7 +137,7 @@
   <div class="row g-0 mt-5" align="center">
   <span class="main_page" >customers</span>
     <div class="col-md-12 mt-3 mb-5" >
-      <h1 class="sub_title">More than 500,000 designers,<br>developers and PMs <strong3>trust Stark</strong3>.</h1>
+      <h1 class="sub_title">More than 500,000 designers,<br> developers and PMs <strong3>trust Stark</strong3>.</h1>
     </div>
   </div>
   
