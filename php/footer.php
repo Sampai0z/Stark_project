@@ -3,8 +3,8 @@
 <div class="container"></div>
 <footer class="footer">
 
-  <!-- main footer -->
- <div class="row">
+<!--   main footer -->
+ <div class="row g-0">
     <main class="ft-main">
       <div class="">
         <ul>

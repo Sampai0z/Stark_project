@@ -20,9 +20,9 @@
 </main>
 
 <main class="container">
-  <div class="row" align="center">
+  <div class="row g-0" align="center">
     <div class="col-md-12">
-      <p class="main_page" >CHECK IT OUT</p>
+      <p class="main_page mt-5" >CHECK IT OUT</p>
       <h1 class="sub_title" >See Stark in action.</h1>
       <p class="text-normal" >Lorem ipsum<path d="M0 57.5L4.5 5.5L307 0L299.5 57.5H0Z" fill="#FEDB63"></path> dolor sit amet consectetur, adipisicing elit. Architecto fugit ipsam <br> asperiores? Ab enim de
         bitis maiores esse ut eveniet. <br> Accusamus perspiciatis labore provident sint sequi vel iste architecto laborum
@@ -41,62 +41,71 @@
     <div class="tab-indicator"></div>
     <div class="tab-body">
       <div class="active">
-      <!-- <img src="assets/image/icon/chrome.png" alt=""> -->
+      <img src="assets/image/icon/chrome.png" alt="">
       </div>
       <div>
-      <!-- <img src="assets/image/icon/chrome.png" alt=""> -->
+      <img src="assets/image/icon/chrome.png" alt="">
       </div>
       <div>
-      <!-- <img src="assets/image/icon/chrome.png" alt=""> -->
+      <img src="assets/image/icon/chrome.png" alt="">
       </div>
       <div>
-      <!-- <img src="assets/image/icon/chrome.png" alt=""> -->
+      <img src="assets/image/icon/chrome.png" alt="">
       </div>
     </div>
   </div>
 </div>
 
-<main class="container">
-  <div class="row mt-5 mb-5" align="center">
+<main class="container contain">
+  <div class="row g-0 mt-5 mb-5" align="center">
     <div class="col-md-12 mt-5 mb-5 ">
-      <h1 class="sub_title" >Accessibility fo everyone</h1>
+      <h1 class="sub_title" >Accessibility to everyone</h1>
       <p class="text-normal" >Lorem ipsumdolor sit amet consectetur, adipisicing elit. Architecto fugit ipsam <br> asperiores? Ab enim de
         bitis maiores esse ut eveniet. <br> Accusamus perspiciatis labore provident sint sequi vel iste architecto laborum
          mollitia!</p>
     </div>
   </div>
 
-  <div class="row mt-5">
+  <div class="row g-0 mt-5">
     <div class="col-md-6 mb-5">
-      <p class="text-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minus eligendi pariatur velit, ipsum, officia ea iste perspiciatis commodi voluptates fuga enim sequi animi laborum! Id ab quis voluptatem minus?</p>
+      <p class="text-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minus eligendi pariatur <br> velit, ipsum, officia ea iste perspiciatis commodi voluptates fuga enim sequi animi laborum! Id ab quis voluptatem minus?</p>
     </div>
     <div class="col-md-6 mb-5">
-      <p class="text-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minus eligendi pariatur velit, ipsum, officia ea iste perspiciatis commodi voluptates fuga enim sequi animi laborum! Id ab quis voluptatem minus?</p>
+      <p class="text-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minus eligendi pariatur velit, <br> ipsum, officia ea iste perspiciatis commodi voluptates fuga enim sequi animi laborum! Id ab quis voluptatem minus?</p>
     </div>    
   </div>
 
-  <div class="row">
+  <div class="row g-0">
     <div class="col-md-6 mb-5">
-      <p class="text-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minus eligendi pariatur velit, ipsum, officia ea iste perspiciatis commodi voluptates fuga enim sequi animi laborum! Id ab quis voluptatem minus?</p>
+      <p class="text-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minus eligendi pariatur velit <br> , ipsum, officia ea iste perspiciatis commodi voluptates fuga enim sequi animi laborum! Id ab quis voluptatem minus?</p>
     </div> 
     <div class="col-md-6 ">
       <p class="text-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minus eligendi pariatur velit, ipsum, officia ea iste perspiciatis commodi voluptates fuga enim sequi animi laborum! Id ab quis voluptatem minus?</p>
     </div>
   </div>
-  <hr>
+ 
 </main>
 
-<!-- SECOND PART -->
+<div class="brand">
+  <img src="assets/image/icon/cib-dropbox.svg" alt="" width="90px">
+  <img src="assets/image/icon/oscar.svg" alt="" width="100px">
+  <img src="assets/image/icon/pfizer.svg" alt="" width="100px">
+  <img src="assets/image/icon/microsoft.svg" alt="" width="200px">
+  <img src="assets/image/icon/volkswagen.svg" alt="" width="90px">
+  <img src="assets/image/icon/unionbank.svg" alt="" width="200px">
+</div>
 
+<!-- SECOND PART -->
+<hr>
 <main class="container">
-  <div class="row" align="center">
+  <div class="row g-0" align="center">
     <div class="col-md-12 mt-5" >
       <span class="main_page">features</span>
       <h1 class="sub_title" >All the things you can do</h1>
     </div>
   </div>
 
-  <div class="row mt-5">
+  <div class="row g-0 mt-5">
     <div class="col-md-6 mb-5">
       <span class="main_page">FROM IDEIA TO PRODUCTION</span>
       <h5 class="sub_main_page">Work with accessibility in mind</h5>
@@ -109,7 +118,7 @@
     </div>    
   </div>
 
-  <div class="row">
+  <div class="row g-0">
     <div class="col-md-6 mb-5">
       <span class="main_page">SHOW DON'T TELL</span>
       <h5 class="sub_main_page">Work with accessibility in mind</h5>
@@ -125,14 +134,14 @@
 </main>
 
 <main class="container">
-  <div class="row mt-5" align="center">
+  <div class="row g-0 mt-5" align="center">
   <span class="main_page" >customers</span>
     <div class="col-md-12 mt-3 mb-5" >
       <h1 class="sub_title">More than 500,000 designers,<br>developers and PMs trust Stark.</h1>
     </div>
   </div>
   
-  <div class="row card-steps" align="left">
+  <div class="row g-0 card-steps" align="left">
     <div class="col-md-4 content">
       <span class="main_page" >STEP 1</span>
       <h3 class="card-header">Start with a free account</h3>
@@ -142,7 +151,7 @@
     <div class="col-md-4 content">
       <span class="main_page" >STEP 2</span>
       <h3 class="card-header">Download and install Stark</h3>
-      <p class="card-text">Download and install our plugins for Figma, Sketch, Adobe XD, as well as our browser extensions.</p>
+      <p class="card-text">Download and install our plugins for Figma, Sketch, Adobe XD, as well as our brow g-0ser extensions.</p>
       <a href="" class="card-link card-link-1 hover-shadow">Download Stark</a>
     </div>
     <div class="col-md-4 content">

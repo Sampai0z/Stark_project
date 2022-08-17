@@ -17,6 +17,7 @@ html body{
 .top-color{
   background: rgb(200,31,100);
   background: linear-gradient(0deg, rgba(200,31,100,1) 0%, rgba(120,56,184,1) 19%, rgba(70,46,195,1) 50%, rgba(58,31,211,1) 100%);
+  max-height: 65rem;
 }
 
 .container_homepage{
@@ -82,6 +83,14 @@ html body{
 .button-homepage-2:hover{
   color: #6d36ba;
   background-color: #fedb62;
+}
+.brand{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* ---------------- M A I N ---------------- */
@@ -219,7 +228,7 @@ html body{
 
 
 /* --------------- T A B S --------------- */
-/* 
+
 .tabs{
   position: relative;
   margin-top: 40px;
@@ -261,14 +270,26 @@ html body{
 }
 .tab-body{
   right: 50%;
-  
   position: relative;
   padding: 10px;
-  background:#f5f5f5;
-  border-top:1px solid #ddd;
+  /* background:#f5f5f5; */
+  /* border-top:1px solid #ddd; */
   height:calc(100% - 50px);
   overflow: visible;
+
 }
+.contain{
+  margin-top: 40rem;
+}
+@media (max-width: 1162px) {
+  .tabs{
+    display: none;
+  }
+  .contain{
+    margin-top: auto;
+  }
+}
+
 .tab-body > div {
   position: absolute;
   opacity: 0;
@@ -281,4 +302,3 @@ html body{
   top: 30px;
   opacity: 1;
 }
- */
