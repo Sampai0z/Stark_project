@@ -66,7 +66,7 @@
 <!-- SOCIAL -->
 
   <section class="sub-footer">
-    <p class="cop-footer">MADE REMOTELY BY STARK LAB, INC. © COPYRIGHT 2021</p>
+    <p class="cop-footer hover-shadow">MADE REMOTELY BY STARK LAB, INC. © COPYRIGHT 2021</p>
     <img src="assets/image/icon/stark.svg" alt="logo stark" width="40px" class="logo-footer">
   </section>
 </footer>

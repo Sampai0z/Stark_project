@@ -91,6 +91,7 @@ html body{
   gap: 10rem;
   margin-top: 50px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 /* ---------------- M A I N ---------------- */
@@ -120,7 +121,9 @@ html body{
   border-radius: 20px;
   padding: 50px;
   left: 20px;
-
+  border: 1px solid black;
+  box-shadow:5px 5px 10px 5px black ;
+  margin-bottom: 20px;
 }
 
 .card-header{
@@ -150,6 +153,59 @@ html body{
   color: #10284b;
   padding-bottom: 25px;
 }
+
+/* HIGHLIGHTED EFFECT */
+
+strong {
+  position: relative;
+}
+
+strong::before {
+  background-color: #fe6262;
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 60%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+
+strong2 {
+  position: relative;
+}
+
+strong2::before {
+  background-color: #fedb62;
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 60%;
+  left: -1px;
+  bottom: 0;
+  z-index: -2;
+  transform: rotate(2deg);
+}
+
+strong3 {
+  position: relative;
+}
+
+strong3::before {
+  background-color: #9ad6cf;
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 60%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+
+
+
 
 
 @keyframes hover {
