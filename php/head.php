@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="assets/style/top.css">
 <link rel="stylesheet" href="assets/style/style.css">
-<link rel="stylesheet" href="assets/style/footer.css">
 <link rel="shortcut icon" href="assets/image/icon/stark.svg" type="image/x-icon">
 <script src="assets/app/app.js" defer></script>
 <title>Stark: The suite of integrated accessibility tools - Project</title>
